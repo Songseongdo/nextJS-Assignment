@@ -1,0 +1,62 @@
+.book_container {
+	display: grid;
+	grid-template-rows: 1fr auto;
+	gap: 10px;
+	overflow: hidden;
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	position: relative;
+}
+.book_container img {
+	max-width: 100%;
+	min-height: 100%;
+}
+.text_container {
+	padding: 0px 10px 20px;
+	position: relative;
+}
+.title {
+	font-size: 18px;
+	margin: 10px 0px 5px;
+}
+.author {
+	font-size: 12px;
+	color: rgb(90, 138, 241);
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.url_container {
+	width: 80px;
+	padding: 5px 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.url_container:hover {
+	cursor: pointer;
+}
+.product_url {
+	font-size: 14px;
+	line-height: 20px;
+}
+.buynow {
+	color: #56b7f0;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.modal_container {
+	background-color: white;
+	color: black;
+	z-index: 100;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 20px;
+}

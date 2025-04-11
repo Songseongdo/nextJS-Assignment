@@ -1,0 +1,10 @@
+.container {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+}
+.container:hover {
+	cursor: pointer;
+	scale: 1.1;
+}

@@ -1,0 +1,19 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.title {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.book_detail_container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+	gap: 30px;
+	justify-content: center;
+}
