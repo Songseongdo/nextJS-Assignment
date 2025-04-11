@@ -9,5 +9,7 @@ react 19, next 15, recoil 0.7 충돌
 다운 그레이드
 
 내비게이션 애니메이션
+
 book_catagory localStorage 저장
+
 chatchAll 적용
